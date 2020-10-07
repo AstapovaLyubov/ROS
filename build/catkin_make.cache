@@ -1,0 +1,2 @@
+agents:client_server:example_lecture:hello_world:my_message:my_service:package:rviz_manip:subscriber:talkers:task1
+-DCATKIN_DEVEL_PREFIX=/home/lyubov/ROS_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/lyubov/ROS_workspace/install -G Unix Makefiles

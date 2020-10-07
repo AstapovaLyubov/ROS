@@ -1,0 +1,8 @@
+prefix=/home/lyubov/ROS_workspace/devel
+
+Name: example_lecture
+Description: Description of example_lecture
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

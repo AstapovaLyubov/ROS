@@ -1,0 +1,8 @@
+prefix=/home/lyubov/ROS_workspace/install
+
+Name: my_service
+Description: Description of my_service
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/lyubov/ROS_workspace/devel
+
+Name: subscriber
+Description: Description of subscriber
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/lyubov/ROS_workspace/install
+
+Name: agents
+Description: Description of agents
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

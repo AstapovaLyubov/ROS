@@ -1,0 +1,8 @@
+prefix=/home/lyubov/ROS_workspace/devel
+
+Name: my_message
+Description: Description of my_message
+Version: 0.0.0
+Cflags: -I/home/lyubov/ROS_workspace/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

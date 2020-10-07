@@ -1,0 +1,9 @@
+<launch>
+<arg name="stop" default="17"/>
+<node pkg="agents" type="reader" name="reader1" output="screen">
+<remap from="message" to ="Name"/>
+<param name="stop_value" type="int" value="$(arg stop)" />
+</node>
+<node pkg="agents" type="writer" name="writer1" output="screen"/>
+</launch>
+
