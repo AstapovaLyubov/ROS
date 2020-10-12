@@ -10,7 +10,7 @@ ros::Publisher symbol_publisher;
 ros::Subscriber symbol_code_subscriber;
 
 int smbl_code = -1;       // Код символа
-bool get_new_symbol_code = false;  // Флаг для публикации цитаты
+bool get_new_symbol_code = false;  // Флаг что код получен
 const double frecuency = 10.0;  // Частота работы узла в Гц
 
 // Функция установки кода символа
@@ -19,7 +19,7 @@ void symbol_code_callback(const std_msgs::Int8::ConstPtr& msg)
     smbl_code = msg->data;
     ROS_INFO("symbol code: %i", smbl_code);
     //Проверка существования кода символа из кодировки ACSII
-    if (smbl_code>=33 && smbl_code<=127)
+    if (smbl_code>=32 && smbl_code<=127)
     {
         ROS_INFO("Yeah, there is such character in ASCII encoding!");
         get_new_symbol_code = true;  
