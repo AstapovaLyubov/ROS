@@ -947,6 +947,188 @@ task1_pub_sub/fast:
 	$(MAKE) -f task1/CMakeFiles/task1_pub_sub.dir/build.make task1/CMakeFiles/task1_pub_sub.dir/build
 .PHONY : task1_pub_sub/fast
 
+#=============================================================================
+# Target rules for targets named task2_geneus
+
+# Build rule for target.
+task2_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_geneus
+.PHONY : task2_geneus
+
+# fast build rule for target.
+task2_geneus/fast:
+	$(MAKE) -f task2/CMakeFiles/task2_geneus.dir/build.make task2/CMakeFiles/task2_geneus.dir/build
+.PHONY : task2_geneus/fast
+
+#=============================================================================
+# Target rules for targets named task2_generate_messages_lisp
+
+# Build rule for target.
+task2_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_generate_messages_lisp
+.PHONY : task2_generate_messages_lisp
+
+# fast build rule for target.
+task2_generate_messages_lisp/fast:
+	$(MAKE) -f task2/CMakeFiles/task2_generate_messages_lisp.dir/build.make task2/CMakeFiles/task2_generate_messages_lisp.dir/build
+.PHONY : task2_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named task2_generate_messages_cpp
+
+# Build rule for target.
+task2_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_generate_messages_cpp
+.PHONY : task2_generate_messages_cpp
+
+# fast build rule for target.
+task2_generate_messages_cpp/fast:
+	$(MAKE) -f task2/CMakeFiles/task2_generate_messages_cpp.dir/build.make task2/CMakeFiles/task2_generate_messages_cpp.dir/build
+.PHONY : task2_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named task2_genlisp
+
+# Build rule for target.
+task2_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_genlisp
+.PHONY : task2_genlisp
+
+# fast build rule for target.
+task2_genlisp/fast:
+	$(MAKE) -f task2/CMakeFiles/task2_genlisp.dir/build.make task2/CMakeFiles/task2_genlisp.dir/build
+.PHONY : task2_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named task2_generate_messages_eus
+
+# Build rule for target.
+task2_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_generate_messages_eus
+.PHONY : task2_generate_messages_eus
+
+# fast build rule for target.
+task2_generate_messages_eus/fast:
+	$(MAKE) -f task2/CMakeFiles/task2_generate_messages_eus.dir/build.make task2/CMakeFiles/task2_generate_messages_eus.dir/build
+.PHONY : task2_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named task2_generate_messages
+
+# Build rule for target.
+task2_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_generate_messages
+.PHONY : task2_generate_messages
+
+# fast build rule for target.
+task2_generate_messages/fast:
+	$(MAKE) -f task2/CMakeFiles/task2_generate_messages.dir/build.make task2/CMakeFiles/task2_generate_messages.dir/build
+.PHONY : task2_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named client_node
+
+# Build rule for target.
+client_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client_node
+.PHONY : client_node
+
+# fast build rule for target.
+client_node/fast:
+	$(MAKE) -f task2/CMakeFiles/client_node.dir/build.make task2/CMakeFiles/client_node.dir/build
+.PHONY : client_node/fast
+
+#=============================================================================
+# Target rules for targets named _task2_generate_messages_check_deps_GetDeterminant
+
+# Build rule for target.
+_task2_generate_messages_check_deps_GetDeterminant: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _task2_generate_messages_check_deps_GetDeterminant
+.PHONY : _task2_generate_messages_check_deps_GetDeterminant
+
+# fast build rule for target.
+_task2_generate_messages_check_deps_GetDeterminant/fast:
+	$(MAKE) -f task2/CMakeFiles/_task2_generate_messages_check_deps_GetDeterminant.dir/build.make task2/CMakeFiles/_task2_generate_messages_check_deps_GetDeterminant.dir/build
+.PHONY : _task2_generate_messages_check_deps_GetDeterminant/fast
+
+#=============================================================================
+# Target rules for targets named task2_generate_messages_nodejs
+
+# Build rule for target.
+task2_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_generate_messages_nodejs
+.PHONY : task2_generate_messages_nodejs
+
+# fast build rule for target.
+task2_generate_messages_nodejs/fast:
+	$(MAKE) -f task2/CMakeFiles/task2_generate_messages_nodejs.dir/build.make task2/CMakeFiles/task2_generate_messages_nodejs.dir/build
+.PHONY : task2_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named task2_gencpp
+
+# Build rule for target.
+task2_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_gencpp
+.PHONY : task2_gencpp
+
+# fast build rule for target.
+task2_gencpp/fast:
+	$(MAKE) -f task2/CMakeFiles/task2_gencpp.dir/build.make task2/CMakeFiles/task2_gencpp.dir/build
+.PHONY : task2_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named task2_gennodejs
+
+# Build rule for target.
+task2_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_gennodejs
+.PHONY : task2_gennodejs
+
+# fast build rule for target.
+task2_gennodejs/fast:
+	$(MAKE) -f task2/CMakeFiles/task2_gennodejs.dir/build.make task2/CMakeFiles/task2_gennodejs.dir/build
+.PHONY : task2_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named task2_generate_messages_py
+
+# Build rule for target.
+task2_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_generate_messages_py
+.PHONY : task2_generate_messages_py
+
+# fast build rule for target.
+task2_generate_messages_py/fast:
+	$(MAKE) -f task2/CMakeFiles/task2_generate_messages_py.dir/build.make task2/CMakeFiles/task2_generate_messages_py.dir/build
+.PHONY : task2_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named task2_genpy
+
+# Build rule for target.
+task2_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task2_genpy
+.PHONY : task2_genpy
+
+# fast build rule for target.
+task2_genpy/fast:
+	$(MAKE) -f task2/CMakeFiles/task2_genpy.dir/build.make task2/CMakeFiles/task2_genpy.dir/build
+.PHONY : task2_genpy/fast
+
+#=============================================================================
+# Target rules for targets named server_node
+
+# Build rule for target.
+server_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server_node
+.PHONY : server_node
+
+# fast build rule for target.
+server_node/fast:
+	$(MAKE) -f task2/CMakeFiles/server_node.dir/build.make task2/CMakeFiles/server_node.dir/build
+.PHONY : server_node/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1020,6 +1202,20 @@ help:
 	@echo "... subscriber1"
 	@echo "... publisher1"
 	@echo "... task1_pub_sub"
+	@echo "... task2_geneus"
+	@echo "... task2_generate_messages_lisp"
+	@echo "... task2_generate_messages_cpp"
+	@echo "... task2_genlisp"
+	@echo "... task2_generate_messages_eus"
+	@echo "... task2_generate_messages"
+	@echo "... client_node"
+	@echo "... _task2_generate_messages_check_deps_GetDeterminant"
+	@echo "... task2_generate_messages_nodejs"
+	@echo "... task2_gencpp"
+	@echo "... task2_gennodejs"
+	@echo "... task2_generate_messages_py"
+	@echo "... task2_genpy"
+	@echo "... server_node"
 .PHONY : help
 
 

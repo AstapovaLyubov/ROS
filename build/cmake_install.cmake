@@ -142,6 +142,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/lyubov/ROS_workspace/build/subscriber/cmake_install.cmake")
   include("/home/lyubov/ROS_workspace/build/talkers/cmake_install.cmake")
   include("/home/lyubov/ROS_workspace/build/task1/cmake_install.cmake")
+  include("/home/lyubov/ROS_workspace/build/task2/cmake_install.cmake")
 
 endif()
 
