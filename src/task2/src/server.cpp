@@ -36,7 +36,7 @@ bool get_determinant(task2::GetDeterminant::Request &req,
 
     resp.det = X.determinant();
     ROS_INFO_STREAM("Matrix: \n" << X);
-    ROS_INFO_STREAM("Determinant = " << resp.det);
+    ROS_INFO("Determinant = %f", resp.det);
 
     return true;
 }
