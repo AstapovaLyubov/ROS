@@ -39,8 +39,6 @@ boost::array<float,9> CreateRandomMatrix()
 {
     boost::array<float,9> m;
     for (std::size_t i=0; i<boost::size(m); i++)
-    {
         m[i] = static_cast<float>(((std::rand()%2001-1000))/10.0);
-    }
     return m;
 }
