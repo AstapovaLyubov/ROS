@@ -16,6 +16,7 @@ int main(int argc, char **argv)
     ros::ServiceClient client = n.serviceClient<task2::GetDeterminant>("get_determinant");
     task2::GetDeterminant srv;
     ros::Rate loop_rate(1);// 1 - одно смс в сек
+    
     while (ros::ok())
     {
         ROS_INFO_STREAM("Generating a matrix..");
@@ -27,9 +28,8 @@ int main(int argc, char **argv)
         if (client.call(srv))
             ROS_INFO_STREAM("Determinant = " << srv.response.det);
         else
-        {
             ROS_ERROR_STREAM("Failed to get determinant");
-        }
+        
         loop_rate.sleep();//подождать чтобы сохранить заданную скорость
     }
 }
